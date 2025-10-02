@@ -111,16 +111,26 @@ export default function FinancialCalculators() {
       {/* Header */}
       <div className="bg-white/60 dark:bg-gray-900/60 backdrop-blur-sm border-b border-gray-200/30 dark:border-gray-700/30">
         <div className="container mx-auto px-4 py-4">
-          <div className="flex items-center justify-center gap-3">
-            <div className="p-2 rounded-lg bg-gradient-to-r from-blue-500 to-purple-600">
-              <Calculator className="h-5 w-5 text-white" />
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <div className="p-2 rounded-lg bg-gradient-to-r from-blue-500 to-purple-600">
+                <Calculator className="h-5 w-5 text-white" />
+              </div>
+              <div>
+                <h1 className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                  EasyCal
+                </h1>
+                <p className="text-xs text-gray-500 dark:text-gray-400">
+                  Financial calculators for Indians
+                </p>
+              </div>
             </div>
-            <div>
-              <h1 className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                EasyCal
-              </h1>
-              <p className="text-xs text-gray-500 dark:text-gray-400">
-                Financial calculators for Indians
+            <div className="text-right">
+              <p className="text-base text-gray-500 dark:text-gray-400 flex items-center gap-1 justify-end">
+                Made with <span className="text-red-500 animate-pulse">❤️</span> in <span className="text-xl">🇮🇳</span>
+              </p>
+              <p className="text-lg text-gray-400 dark:text-gray-500 mt-1">
+                by <span className="font-bold bg-gradient-to-r from-green-500 to-emerald-600 bg-clip-text text-transparent">skeslabs</span>
               </p>
             </div>
           </div>
